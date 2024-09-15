@@ -23,8 +23,7 @@ CREATE TABLE Customers (
 CREATE TABLE Employees (
     Employee_id INT,
     First_Name VARCHAR(50),
-    Last_Name VARCHAR(50),
-    Role VARCHAR(50)  
+    Last_Name VARCHAR(50)
 );
 
 CREATE TABLE Sales (
@@ -104,36 +103,36 @@ insert into Customers (Customer_id, First_name, Last_name, Phone, Email) values 
 insert into Customers (Customer_id, First_name, Last_name, Phone, Email) values (24, 'Elita', 'Orsman', '760-907-7833', 'eorsmann@army.mil');
 insert into Customers (Customer_id, First_name, Last_name, Phone, Email) values (25, 'Saree', 'Mieville', '732-700-3723', 'smievilleo@de.vu');
 
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (1, 'Mélinda', 'Hatliff', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (2, 'Åke', 'Fairbeard', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (3, 'Ruì', 'Tollady', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (4, 'Garçon', 'Delamaine', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (5, 'Maëlla', 'Taree', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (6, 'Mahélie', 'Bidewel', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (7, 'Dafnée', 'Helling', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (8, 'Réservés', 'Le Leu', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (9, 'Táng', 'Jenckes', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (10, 'Gwenaëlle', 'Hyslop', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (11, 'Athéna', 'Menichelli', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (12, 'Maëlys', 'Rieme', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (13, 'Mélodie', 'Kondrat', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (14, 'Bérengère', 'Delf', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (15, 'Anaël', 'Vischi', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (16, 'Anaëlle', 'Raffles', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (17, 'Cécile', 'Ambroziak', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (18, 'Séverine', 'Imlacke', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (19, 'Maïlis', 'Waddam', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (20, 'Josée', 'Sarten', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (21, 'Mélia', 'Voden', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (22, 'Cléa', 'Gibbings', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (23, 'Réservés', 'Kyteley', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (24, 'Thérèse', 'Troy', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (25, 'Lucrèce', 'Swarbrick', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (26, 'Joséphine', 'Marritt', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (27, 'Zoé', 'Sparrowe', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (28, 'Illustrée', 'Tantum', 'Mechanic');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (29, 'Intéressant', 'Coulthurst', 'Salesperson');
-INSERT INTO Employees (Employee_id, First_Name, Last_Name, Role) VALUES (30, 'Loïs', 'Hentze', 'Mechanic');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (1, 'Mélinda', 'Hatliff');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (2, 'Åke', 'Fairbeard');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (3, 'Ruì', 'Tollady');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (4, 'Garçon', 'Delamaine');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (5, 'Maëlla', 'Taree');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (6, 'Mahélie', 'Bidewel');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (7, 'Dafnée', 'Helling');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (8, 'Réservés', 'Le Leu');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (9, 'Táng', 'Jenckes');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (10, 'Gwenaëlle', 'Hyslop');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (11, 'Athéna', 'Menichelli');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (12, 'Maëlys', 'Rieme');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (13, 'Mélodie', 'Kondrat');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (14, 'Bérengère', 'Delf');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (15, 'Anaël', 'Vischi');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (16, 'Anaëlle', 'Raffles');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (17, 'Cécile', 'Ambroziak');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (18, 'Séverine', 'Imlacke');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (19, 'Maïlis', 'Waddam');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (20, 'Josée', 'Sarten');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (21, 'Mélia', 'Voden');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (22, 'Cléa', 'Gibbings');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (23, 'Réservés', 'Kyteley');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (24, 'Thérèse', 'Troy');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (25, 'Lucrèce', 'Swarbrick');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (26, 'Joséphine', 'Marritt');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (27, 'Zoé', 'Sparrowe');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (28, 'Illustrée', 'Tantum');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (29, 'Intéressant', 'Coulthurst');
+INSERT INTO Employees (Employee_id, First_Name, Last_Name) VALUES (30, 'Loïs', 'Hentze');
 
 insert into Sales (Sale_id, Car_id, Customer_id, Employee_id, Sale_Date, Sale_Price) values (1, 12, 15, 64, '4/12/2021', '$150011.50');
 insert into Sales (Sale_id, Car_id, Customer_id, Employee_id, Sale_Date, Sale_Price) values (2, 23, 20, 30, '7/21/2021', '$147083.30');
